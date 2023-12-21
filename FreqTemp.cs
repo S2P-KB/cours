@@ -9,7 +9,7 @@ public class FreqTemp
         
         
         // Déclaration et initialisation du vecteur (nott. le contenu de ses cases) par des inputs utilisateurs.
-        Console.Write("Entrez le nombre de températures : ");
+        Console.Write("Entrez le nombre de températures* : ");
         int nb = int.Parse(Console.ReadLine()!);
         List<int> list = new List<int>();
 
@@ -32,7 +32,7 @@ public class FreqTemp
         Console.Write("Voici la liste des températures : ");
         for (x = 0; x < nb; x++)
         {
-            Console.Write(list[x] + "; "); 
+            Console.Write(list[x+1] + "; "); 
         }
 
         
